@@ -1,0 +1,133 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   HOW TO RUN THE PRICING ENGINE                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📋 PREREQUISITES:
+   ✅ Node.js v20.17.0 (Already installed!)
+   ✅ npm (Comes with Node.js)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 METHOD 1: EASIEST (Windows)
+
+   Step 1: Double-click "install.bat" 
+           (This installs all dependencies - takes 2-5 minutes)
+
+   Step 2: Double-click "start.bat"
+           (This starts both backend and frontend servers)
+
+   Step 3: Open your browser and go to:
+           http://localhost:3000
+
+   That's it! 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛠️ METHOD 2: MANUAL (PowerShell/Command Prompt)
+
+   Step 1: Open PowerShell in this folder
+           (Right-click folder → "Open in Terminal")
+
+   Step 2: Install dependencies:
+           npm install
+           cd client
+           npm install
+           cd ..
+
+   Step 3: Start the application:
+           npm run dev
+
+   Step 4: Open browser:
+           http://localhost:3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 METHOD 3: RUN SERVERS SEPARATELY (Advanced)
+
+   Terminal 1 (Backend):
+   ─────────────────────
+   node server/index.js
+
+   Terminal 2 (Frontend):
+   ──────────────────────
+   cd client
+   npm run dev
+
+   Then open: http://localhost:3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 WHAT YOU'LL SEE:
+
+   ✨ Real-time Dashboard with:
+      • Live pricing updates every 15-30 seconds
+      • Customer interactions (views, cart adds, purchases)
+      • Automatic inventory reduction
+      • Competitor price tracking
+      • AI-powered pricing decisions with explanations
+      • Revenue and profit analytics
+      • Interactive charts and graphs
+
+   🎯 10 Sample Products:
+      • Wireless Headphones Pro
+      • Smart Watch Ultra
+      • Mechanical Keyboard RGB
+      • 4K Webcam Pro
+      • And 6 more...
+
+   📈 Live Activity Feed:
+      • Real-time customer behavior
+      • Price changes with AI reasoning
+      • Sales transactions
+      • Stock updates
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ TROUBLESHOOTING:
+
+   Problem: "Port 3000 or 3001 already in use"
+   Solution: 
+      netstat -ano | findstr :3001
+      taskkill /PID <number> /F
+
+   Problem: "Dependencies not installing"
+   Solution:
+      npm cache clean --force
+      Delete node_modules folder
+      Run: npm install
+
+   Problem: "Module not found"
+   Solution:
+      Make sure you ran npm install in BOTH:
+      - Root folder
+      - client folder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛑 TO STOP THE APPLICATION:
+
+   Press: Ctrl + C (in the terminal)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 NEED MORE HELP?
+
+   • See QUICKSTART.md for detailed instructions
+   • See README.md for full documentation
+   • Check the code comments for technical details
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 RECOMMENDED WORKFLOW:
+
+   1. Run install.bat (first time only)
+   2. Run start.bat (every time you want to use it)
+   3. Open http://localhost:3000
+   4. Watch the magic happen! ✨
+   5. Click on any product for detailed analytics
+   6. Observe AI pricing decisions in real-time
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Happy Pricing! 🚀💰📈
+
