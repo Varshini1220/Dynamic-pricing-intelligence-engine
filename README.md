@@ -81,6 +81,10 @@ A fully functional real-time AI-powered dynamic pricing system for e-commerce pl
 
 ## 🚀 Quick Start
 
+⚠️ **Important:**  
+The application links use `localhost` and will **not work when clicked directly from GitHub**.  
+Please follow the steps below to run the project locally, then open the links in your browser.
+
 ### Prerequisites
 - Node.js 18+ (you have v20.17.0 ✅)
 - npm (comes with Node.js)
@@ -120,6 +124,10 @@ node server/index.js
 cd client
 npm run dev
 ```
+
+⚠️ **Important:**  
+The application links use `localhost` and will **not work when clicked directly from GitHub**.  
+Please follow the steps below to run the project locally, then open the links in your browser.
 
 ### Access the Dashboard
 - **Frontend Dashboard**: http://localhost:3000
